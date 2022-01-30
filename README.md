@@ -22,4 +22,24 @@ In this project we are going to deal with capacitive touch sensor.
 - Battery or a cable for power source
 
 ## Software Requirements
-![download]("https://www.arduino.cc/en/software")
+Arduino IDE [download](https://www.arduino.cc/en/software)
+
+Deploy the code on Arduino UNO board
+
+## Hardware Connections
+Capacitive Touch Sensor:
+- SIG Pin to D3 Pin of the arduino uno board
+- Vcc Pin to 5V Pin of the arduino uno board
+- GND Pin to GND Pin of the arduino uno board
+
+Led Connection
+- Led +ve Pin to D13 of the arduino uno board
+- Led -ve Pin to GND of the arduino uno board
+
+Buzzer Connection
+- Buzzer +ve Pin to D12 of the arduino uno board
+- Buzzer -ve Pin to GND of the arduino uno board
+
+Connect the power source
+
+The successful deploy of the code and hardware connections, on sense of touch the led with glow and buzzer will start to buzz
